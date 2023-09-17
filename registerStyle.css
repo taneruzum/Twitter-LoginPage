@@ -1,0 +1,144 @@
+
+body{
+    background-color: rgb(36, 45, 52);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+
+}
+.loginform{
+    width: 600px;
+    height: 650px;
+    background-color: black;
+    margin-top: 310px;
+    border-radius: 15px;
+
+}
+.bird{
+    
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content:space-between;
+    padding-top:10px ;
+}
+.bird_left,.bird_right{
+    width: 45%;
+    height: 45px;
+    
+}
+.main{
+    
+    width: 70%;
+    height:530px ;
+    margin:20px 20px 10px 90px ;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.text{
+    display: flex;
+    color:white;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-family: helvetica;
+    padding-right: 30px;
+    
+    
+}
+.mail1,.mail2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 1rem;
+    color:black;
+    width: 70%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    font-family: helvetica;
+}
+.veya{
+    width: 70%;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-family: helvetica;
+}
+.line1{
+    width: 70%;
+    height: 1px;
+    border-bottom:1px solid grey;
+    margin-right: 5px;
+    color:grey;
+}
+.line2{
+    width: 70%;
+    height: 1px;
+    border-bottom:1px solid grey;
+    margin-left: 5px;
+    color:grey;
+    
+}
+.login>input{
+    border: 0.1px solid grey;
+    background-color: black;
+    color: grey;
+    width: 300px;
+    height: 55px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: large;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+    
+}
+.forgetpass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    width: 70%;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-family: helvetica;
+    
+    
+}
+.kaydol{
+    color: grey;
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    margin-right: 55px;
+    font-family: helvetica;
+}
+.kaydol>span>a{
+    text-decoration: none;
+
+    
+}
+.kaydol>span>a:hover{
+    text-decoration: underline;
+    
+}
